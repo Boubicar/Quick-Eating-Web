@@ -1,0 +1,430 @@
+<html lang="fr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+
+    <title>Paiement</title>
+
+   
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+    <header style="background-color: #26272b; color: white">
+		<h1 style="text-align: center;">Quick Eating</h1>
+    <container style="margin-bottom:25px; margin-top: 15px;">
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu-restaurants" href="Restaurants.html">Restaurants</a>
+				</li>
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu" href="Menu.html">Menu</a>
+				</li>
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu-paiement" href="Paiement.html">Paiement</a>
+				</li>
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu-commandes" href="Commandes.html">Commandes</a>
+				</li>
+			</ul>
+		</container>
+	</header>
+
+    <div style="" class="container">
+      <div class="py-5 text-center">
+        <h2>Paiement</h2>
+       <!--  <p class="lead">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+ -->      </div>
+<!-- 
+      <div class="row">
+        <div class="col-md-4 order-md-2 mb-4">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Votre commande</span>
+            <span class="badge badge-secondary badge-pill">3</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Riz</h6>
+                <small class="text-muted">Description</small>
+              </div>
+              <span class="text-muted">$20</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Salade</h6>
+                <small class="text-muted">Description</small>
+              </div>
+              <span class="text-muted">$10</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Café</h6>
+                <small class="text-muted">Description</small>
+              </div>
+              <span class="text-muted">$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-light">
+              <div class="text-success">
+                <h6 class="my-0">Promo code</h6>
+                <small>Promocode</small>
+              </div>
+              <span class="text-success">-$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (CAD)</span>
+              <strong>$25</strong>
+            </li>
+          </ul> -->
+
+          
+        </div>
+        <div style="margin-left: auto; margin-right: auto;"class="col-md-8 order-md-1">
+          <h4 class="mb-3">Adresse de livraison</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">Nom</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Require un nom valide.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Prénoms</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                   Require un nom valide.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username">Pseudo</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" id="username" placeholder="Pseudo" required="">
+                <div class="invalid-feedback" style="width: 100%;">
+                  Require un pseudo valide.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email">Courriel<span class="text-muted">(Optionnel)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Veuillez entrer un courriel pour les mises à jour de la commande.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address">Adresse</label>
+              <input type="text" class="form-control" id="adresse" placeholder="800 King Edward" required="">
+              <div class="invalid-feedback">
+                Veuillez entrez une adresse de livraison.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address2">Adresse 2 <span class="text-muted">(Optionnel)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Appartement ou suite">
+            </div>
+
+            <div class="row">
+              <div class="col-md-5 mb-3">
+                <label for="country">Pays</label>
+                <select class="custom-select d-block w-100" id="country" required="">
+                  <option value="">Choisir...</option>
+                  <option>Canada</option>
+                </select>
+                <div class="invalid-feedback">
+                  Veuillez selectionner un pays.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="state">Province ou Territoire</label>
+                <select class="custom-select d-block w-100" id="state" required="">
+                  <option value="">Choisir...</option>
+                  <option>Ontario</option>
+                  <option>Québec</option>
+                </select>
+                <div class="invalid-feedback">
+                  Veuillez fournir une province ou territoire.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="zip">Code Postal</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Le code postal est réquis.
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="same-address">
+              <label class="custom-control-label" for="same-address">L'adresse de livraison est la même que l'adresse de facturation</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="save-info">
+              <label class="custom-control-label" for="save-info">Sauvegarder ces informations pour la prochaine fois</label>
+            </div>
+            <hr class="mb-4">
+
+            <h4 class="mb-3">Paiement</h4>
+
+            <div class="d-block my-3">
+              <div class="custom-control custom-radio">
+                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                <label class="custom-control-label" for="credit">Carte de Crédit</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                <label class="custom-control-label" for="debit">Carte de Débit</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                <label class="custom-control-label" for="paypal">Paypal</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="cc-name">Nom sur la carte</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                <small class="text-muted">Nom complet tel que sur la carte</small>
+                <div class="invalid-feedback">
+                  Le non est requis
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="cc-number">Numéro de la carte</label>
+                <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Le numéro de la carte est requis
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">Expiration</label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                <div class="invalid-feedback">
+                  La date d'expiration
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Le code de sécurité est requis
+                </div>
+              </div>
+            </div
+            <form class="card p-2">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Promo code">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-secondary">Appliquer</button>
+              </div>
+            </div>
+          </form>
+            <hr class="mb-4">
+            <button style="margin-left: auto; margin-right: auto; width: 500px;" class="btn btn-primary btn-block" type="submit">Confirmer le paiement</button>
+          </form>
+        </div>
+      </div>
+
+      <div style="margin-top: 40px;"class="footer">
+		  <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Quick Eating is an initiative to help people by delivering food. Quick Eating focuses on providing the most efficient algorithm to match you with different restaurants in your city. Our website is build using concepts in different programming languages that include C, 
+                C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                <div class=" ">
+            <h6>Quick Links</h6>
+            <ul style="" class="footer">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Contribute</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+          </div>
+          <div>
+              <img style="border-radius:7px" src="map.png">
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright 2019 All Rights Reserved by Colombe Tolokin and Boubacar Ouedraogo</p>
+          </div>
+        </div>
+      </div>
+</footer>
+	</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+  
+
+</body></html>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Paiement</title>
+        <meta charset="utf-8">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    </head>
+    <body>
+
+<div class="container">
+    <div class="row">
+        <div class="well col-xs-10 col-sm-10 col-md-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-3">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <address>
+                        <strong>Les Restaurants</strong>
+                        <br>
+                        800 King Edward
+                        <br>
+                        Ottawa, ON K1N 1N1
+                        <br>
+                        <abbr title="Phone">P:</abbr> (263) 123 4567
+                    </address>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 text-right">
+                    <p>
+                        <em>Date: 22nd May, 2019</em>
+                    </p>
+                    <p>
+                        <em>Receipt #: 00000001</em>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center">
+                    <h1>Receipt</h1>
+                </div>
+                </span>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>#</th>
+                            <th class="text-center">Price</th>
+                            <th class="text-center">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-md-9"><em>Baked Rodopa Sheep Feta</em></h4></td>
+                            <td class="col-md-1" style="text-align: center"> 2 </td>
+                            <td class="col-md-1 text-center">$13</td>
+                            <td class="col-md-1 text-center">$26</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9"><em>Lebanese Cabbage Salad</em></h4></td>
+                            <td class="col-md-1" style="text-align: center"> 1 </td>
+                            <td class="col-md-1 text-center">$8</td>
+                            <td class="col-md-1 text-center">$8</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9"><em>Baked Tart with Thyme and Garlic</em></h4></td>
+                            <td class="col-md-1" style="text-align: center"> 3 </td>
+                            <td class="col-md-1 text-center">$16</td>
+                            <td class="col-md-1 text-center">$48</td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td class="text-right">
+                            <p>
+                                <strong>Subtotal: </strong>
+                            </p>
+                            <p>
+                                <strong>Tax: </strong>
+                            </p></td>
+                            <td class="text-center">
+                            <p>
+                                <strong>$6.94</strong>
+                            </p>
+                            <p>
+                                <strong>$6.94</strong>
+                            </p></td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td class="text-right"><h4><strong>Total: </strong></h4></td>
+                            <td class="text-center text-danger"><h4><strong>$31.53</strong></h4></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-success btn-lg btn-block">
+                    Pay Now   <span class="glyphicon glyphicon-chevron-right"></span>
+                </button></td>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
+
+
+ -->

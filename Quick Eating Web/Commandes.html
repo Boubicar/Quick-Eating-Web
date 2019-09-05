@@ -1,0 +1,164 @@
+<html lang="fr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Commandes</title>
+
+   
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+
+  <body>
+     <header style="background-color: #26272b; color: white">
+		<h1 style="text-align: center;">Quick Eating</h1>
+    <container style="margin-bottom:25px; margin-top: 15px;">
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu-restaurants" href="Restaurants.html">Restaurants</a>
+				</li>
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu" href="Menu.html">Menu</a>
+				</li>
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu-paiement" href="Paiement.html">Paiement</a>
+				</li>
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu-commandes" href="Commandes.html">Commandes</a>
+				</li>
+			</ul>
+		</container>
+	</header>
+<main>
+    <div class="container">
+      <div class="py-5 text-center">
+        <h2>Commandes</h2>
+      </div>
+      <div style="display: flex; justify-content: center" class="row">
+        <div class="col-md-4 order-md-2 mb-4">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Votre commande</span>
+            <span class="badge badge-secondary badge-pill">3</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Carolina BBQ Angus</h6>
+                <small class="text-muted">Description</small>
+              </div>
+              <span class="text-muted">10.69$</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Asian Cashew Salad with Crispy Chicken</h6>
+                <small class="text-muted">Description</small>
+              </div>
+              <span class="text-muted">8.19$</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Premium Roast Brewed Coffee</h6>
+                <small class="text-muted">Description</small>
+              </div>
+              <span class="text-muted">1.49$</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-light">
+              <div class="text-success">
+                <h6 class="my-0">Promo code</h6>
+                <small>Promocode</small>
+              </div>
+              <span class="text-success">0</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (CAD)</span>
+              <strong>20.37$</strong>
+            </li>
+          </ul>
+            <hr class="mb-4">
+            <a class="btn btn-success btn-block" href="Paiement.html">Confirmer et aller au paiement</a>
+    </div></div>
+
+    </main>
+     <footer style="margin-top: 30px;" class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Quick Eating is an initiative to help people by delivering food. Quick Eating focuses on providing the most efficient algorithm to match you with different restaurants in your city. Our website is build using concepts in different programming languages that include C, 
+                C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                <div class=" ">
+            <h6>Quick Links</h6>
+            <ul style="" class="footer">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Contribute</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+          </div>
+          <div>
+              <img style="border-radius:7px" src="map.png">
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright 2019 All Rights Reserved by Colombe Tolokin and Boubacar Ouedraogo</p>
+          </div>
+        </div>
+      </div>
+</footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+  
+
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
+

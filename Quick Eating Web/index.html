@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+	<title>Les Restaurants</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header style="background-color: #26272b; color: white">
+		<h1>Quick Eating</h1>
+	</header>
+	<main class="jumbotron page_acceuil">
+		<container style="margin-bottom:25px; margin-top: 15px;">
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu-restaurants" href="Restaurants.html">Restaurants</a>
+				</li>
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu" href="Menu.html">Menu</a>
+				</li>
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu-paiement" href="Paiement.html">Paiement</a>
+				</li>
+				<li class="nav-item">
+					<a style="color:white" class="nav-link menu-commandes" href="Commandes.html">Commandes</a>
+				</li>
+			</ul>
+		</container>
+		<container style="margin-top:60px; margin-bottom:15px;" class="my_Menu">
+			<div style="width: 800px;" class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Veuillez entrer votre adresse..." >
+  <div class="input-group-append">
+    <button class="btn btn-success" type="button">Recherche</button>
+  </div>
+</div>
+		</container>
+		<container>
+			<div class="jumbotron">
+				<div style="text-align:center;" class="container">
+					<h2 style="margin-bottom: 30px">Type de Repas</h2>
+					<div class="ui segment eight column doubling padded grid">
+						<a href="https://www.flaticon.com/authors/photo3idea-studio" class="column ta-center start-categories-item">
+							<img class="ui middle aligned mini image mb5" src="breakfast.png"
+							 data-original="https://b.zmtcdn.com/images/search_tokens/app_icons/category_8.png?output-format=webp" style="height: 48px; width: 48px; display: inline-block;">
+							<div>Breakfast</div>
+						</a>
+						<a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio" class="column ta-center start-categories-item">
+							<img class="ui middle aligned mini image mb5" src="burger.png"
+							 data-original="https://b.zmtcdn.com/images/search_tokens/app_icons/category_9.png?output-format=webp" style="height: 48px; width: 48px; display: inline-block;">
+							<div>Lunch</div>
+						</a>
+						<a href="https://www.flaticon.com/authors/smashicons" class="column ta-center start-categories-item">
+							<img class="ui middle aligned mini image mb5" src="turkey.png"
+							 data-original="https://b.zmtcdn.com/images/search_tokens/app_icons/category_10.png?output-format=webp" style="height: 48px; width: 48px; display: inline-block;">
+							<div>Dinner</div>
+						</a>
+						<!--<a href="https://www.zomato.com/ottawa/take-away" class="column ta-center start-categories-item">
+							<img class="ui middle aligned mini image mb5" src="https://b.zmtcdn.com/images/search_tokens/app_icons/category_5.png?output-format=webp"
+							 data-original="https://b.zmtcdn.com/images/search_tokens/app_icons/category_5.png?output-format=webp" style="height: 48px; width: 48px; display: inline-block;">
+							<div>Take-Out</div>
+						</a>-->
+						<a href="/downloads/bag.png" class="column ta-center start-categories-item">
+							<img class="ui middle aligned mini image mb5" src="bag.png"
+							 data-original="https://b.zmtcdn.com/images/search_tokens/app_icons/category_1.png?output-format=webp" style="height: 48px; width: 48px; display: inline-block;">
+							<div>Delivery</div>
+						</a>
+						<a href="https://www.zomato.com/ottawa/drinks-and-nightlife" class="column ta-center start-categories-item">
+							<img class="ui middle aligned mini image mb5" src="alcoholic-drinks.png"
+							 data-original="https://b.zmtcdn.com/images/search_tokens/app_icons/category_3.png?output-format=webp" style="height: 48px; width: 48px; display: inline-block;">
+							<div>Drinks &amp; Nightlife</div>
+						</a>
+						<a href="https://www.zomato.com/ottawa/restaurants?category=6" class="column ta-center start-categories-item">
+							<img class="ui middle aligned mini image mb5" src="coffee-pot.png"
+							 data-original="https://b.zmtcdn.com/images/search_tokens/app_icons/category_6.png?output-format=webp" style="height: 48px; width: 48px; display: inline-block;">
+							<div>Cafés</div>
+						</a>
+						<a href="https://www.zomato.com/ottawa/restaurants?desserts-bakes=1" class="column ta-center start-categories-item">
+							<img class="ui middle aligned mini image mb5" src="cake.png"
+							 data-original="https://b.zmtcdn.com/images/search_tokens/app_icons/special_10.png?output-format=webp" style="height: 48px; width: 48px; display: inline-block;">
+							<div>Desserts &amp; Baked Goods</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div style="text-align: center; padding: 0px; background-color: white; border-radius: 10px ;margin-bottom: 20px;" class="jumbotron">
+                <h2 style="margin-bottom: 50px; padding-top: 30px;">Liste des Villes</h2>
+				<div style="text-align:center; display: flex; flex-direction: row; justify-content: center;" class="container">
+                    <section>
+                        <ul>
+                             <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Toronto</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants d'Ottawa</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Windsor</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Barrie</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Kingston</a>
+                    </div>
+                </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                              <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Peterborough</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Greater Sudbury</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Guelph</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Hamilton</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Saintes Catharines</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Brantford</a>
+                    </div>
+                </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Montreal</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Saintes-Foy</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de la ville de Québec</a>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de la région de Gatineau</a>
+                    </div>
+                </li>
+                         <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Metro Vancouver</a>
+                        <i class="angle right icon"></i>
+                    </div>
+                </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul> <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Whistler</a>
+                        <i class="angle right icon"></i>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Chilliwack</a>
+                        <i class="angle right icon"></i>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants Abbotsford</a>
+                        <i class="angle right icon"></i>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Vernon</a>
+                        <i class="angle right icon"></i>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Penticton</a>
+                        <i class="angle right icon"></i>
+                    </div>
+                </li>
+                                <li class="col-l-4 mbot">
+                    <div class="ui segment flex">
+                        <a style="flex-grow: 1;" href="#">Restaurants de Prince George</a>
+                        <i class="angle right icon"></i>
+                    </div>
+                </li></ul>
+                    </section>
+				</div>
+			</div>
+		</container>
+		</container>
+	</main>
+	<div class="footer">
+		  <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Quick Eating is an initiative to help people by delivering food. Quick Eating focuses on providing the most efficient algorithm to match you with different restaurants in your city. Our website is build using concepts in different programming languages that include C, 
+                C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                <div class=" ">
+            <h6>Quick Links</h6>
+            <ul style="" class="footer">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Contribute</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+          </div>
+          <div>
+              <img style="border-radius:7px" src="map.png">
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright 2019 All Rights Reserved by Colombe Tolokin and Boubacar Ouedraogo</p>
+          </div>
+        </div>
+      </div>
+</footer>
+	</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+ crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+ crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+ crossorigin="anonymous"></script>
+
+</html>
